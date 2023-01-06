@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "image": "images/asustuf-23.8.png",
+      "device": "ASUS - TUF 23.8\" FHD 1ms FreeSync Gaming Monitor (HDMI)",
+      "price": "$119.99",
+      "description": "Quick 1 ms video response time lets you play action games in real time without lag."
+    },
+    {
+      "image": "images/hpomen-27.png",
+      "device": "HP OMEN - 27\" IPS LED QHD FreeSync & G-Sync Compatible Gaming Monitor (DisplayPort, HDMI, USB) - Shadow Black",
+      "price": "$399.99",
+      "description": "This Omen X 27 monitor has a hi-res display, delivering crystal clear visuals so that your in-game opponents have no chance to hide."
+    },
+    {
+      "image": "images/acernitro-31.5.png",
+      "device": "Acer - Nitro XV320QU LVbmiiphx 31.5\" IPS LED WQHD Monitor - FreeSync Premium (HDMI)",
+      "price": "$269.99",
+      "description": "Crisp, true-to-life colors come alive with the amazing 2560 x 1440 resolution, allowing you to enjoy High-Definition entertainment in the comfort of your home."
+    },
+    {
+      "image": "images/gigabyte-34.png",
+      "device": "GIGABYTE G34WQC A 34\" LED Curved WQHD FreeSync Premium Gaming Monitor with HDR (HDMI< DisplayPort, USB) - Black",
+      "price": "$369.99",
+      "description": "The G34WQC A provides an immersive experience with its ultra-wide display while capturing fluid gameplay and great color accuracy with 1ms response time, 144Hz refresh rate, and compatibility with graphic card software."
+    },
+    {
+      "image": "images/asus-pc.png",
+      "device": "ASUS - ROG Gaming Desktop - Intel Core i7-12700F - 16GB Memory - NVIDIA GeForce RTX 3060 - 1TB HDD + 512GB SSD",
+      "price": "$1,199.99",
+      "description": "Annihilate your competition with this ASUS ROG gaming desktop."
+    },
+    {
+      "image": "images/cyberpower-pc.png",
+      "device": "CyberPowerPC - Gamer Xtreme Gaming Desktop - Intel Core i7-12700F - 16GB Memory - NVIDIA GeForce RTX 3060 Ti - 1TB HDD + 500GB SSD - Black",
+      "price": "$1,299.99",
+      "description": "Rule the virtual battlefield with this CyberPowerPC Gamer Extreme desktop computer."
+    },
+    {
+      "image": "images/ibuypower-pc.png",
+      "device": "iBUYPOWER Y60 Gaming Desktop - Intel i7-12700KF - 16GB DDR4 Memory - NVIDIA GeForce RTX 3070 Ti - 1TB NVMe SSD - Black",
+      "price": "$2,099.99",
+      "description": "Upgrade your current gaming rig with this iBUYPOWER Desktop."
+    },
+    {
+      "image": "images/nzxt-pc.png",
+      "device": "NZXT - H510 Elite Compact ATX Mid-Tower Case with Dual-Tempered Glass - Matte Black",
+      "price": "$159.99",
+      "description": "Build the ultimate PC with this NZXT H510 Elite compact computer tower."
+    },
+    {
+      "image": "images/alienware-keyboard.png",
+      "device": "Alienware - AW510K Full-size Wired Mechanical CHERRY MX Low Profile Red Switch Gaming Keyboard with RGB Back Lighting - Dark Side of the Moon",
+      "price": "$199.99",
+      "description": "Outshoot opponents on the battlefield with this Alienware RGB mechanical gaming keyboard."
+    },
+    {
+      "image": "images/corsair-keyboard.png",
+      "device": "CORSAIR - K100 Air Wireless Full-Size Bluetooth RGB Mechanical Cherry MX Ultra Low Profile Tactile Switch Gaming Keyboard - Black",
+      "price": "$279.99",
+      "description": "Unlock full control over lighting, key remapping, and more with powerful CORSAIR iCUE software."
+    },
+    {
+      "image": "images/magic-keyboard.png",
+      "device": "Magic Keyboard with Touch ID and Numeric Keypad for Mac models with Apple silicon - Black",
+      "price": "$199.99",
+      "description": "Magic Keyboard is now available with Touch ID, providing fast, easy, and secure authentication for logins and purchases."
+    },
+    {
+      "image": "images/logitech-keyboard.png",
+      "device": "Logitech - G915 LIGHTSPEED TKL Wireless Mechanical GL Tactile Switch Gaming Keyboard with RGB Backlighting - Black",
+      "price": "$194.99",
+      "description": "G915 TKL is a new class of wireless mechanical gaming keyboard with three selections of low-profile GL switches and pro-grade 1 ms LIGHTSPEED wireless."
+    }
+  ]
+}
