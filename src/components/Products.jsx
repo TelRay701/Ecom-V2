@@ -22,11 +22,11 @@ class Product extends React.Component {
     return (
       <>
         <h1 className="site-title">Desktop Products</h1>
-        <div>
+        <div className="prod">
           {this.state.products.map((card) => {
             return (
-              <div>
-                <img src={card.image} alt={card.device} />
+              <div className="products">
+                <img className="img" src={card.image} alt={card.device} />
                 <p className="device">{card.device}</p>
                 <p className="description">{card.description}</p>
                 <p className="price">${card.price}</p>

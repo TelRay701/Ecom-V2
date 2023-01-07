@@ -155,7 +155,7 @@
 
   .navLinks {
     text-align: center;
-    padding: 2rem;
+    padding: 20px;
     width: 100%;
     display: table;
   }
@@ -184,18 +184,6 @@
     display: block;
     cursor: pointer;
   }
-
-  /* #mobile-menu.is-active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  #mobile-menu.is-active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  #mobile-menu.is-active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-   } */
 }
 
 .head {

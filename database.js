@@ -8,10 +8,10 @@ const Dotenv = require("dotenv");
 
 Dotenv.config();
 const api = mysql.createConnection({
-  host: "ecommercev3.cjgnpyapskja.us-east-1.rds.amazonaws.com",
+  host: "ecom.csoo2foypql9.us-east-1.rds.amazonaws.com",
   user: "admin",
   password: "Rmte4744",
-  database: "prods",
+  database: "products",
 });
 
 api.connect((err) => {

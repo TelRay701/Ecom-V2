@@ -45,15 +45,15 @@ const Home = () => {
           <div className="product-card">
             <div className="product-image">
               <img
-                src="./images/cyberpower-pc.png"
+                src="./images/clx-pc.png"
                 className="product-cover"
-                alt="Cyberpower PC"
+                alt="CLX PC"
               />
               <button className="card-btn">Add To Cart</button>
             </div>
             <div className="product-info">
-              <h2 className="product-brand">CyberpowerPC - Gaming Desktop</h2>
-              <span className="price">$1,299.99</span>
+              <h2 className="product-brand">CLX - SET Gaming Desktop</h2>
+              <span className="price">$2,019.99</span>
             </div>
           </div>
           <div className="product-card">
