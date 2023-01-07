@@ -58,7 +58,6 @@ app.get("/Products", (req, res) => {
 //   });
 // });
 
-// Comment this out so development build can function
 app.use(express.static("assets"));
 app.use(express.static(path.join(__dirname, "build")));
 app.get("*", (req, res) => {
