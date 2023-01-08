@@ -10,12 +10,10 @@ class Product extends React.Component {
   };
 
   componentDidMount() {
-    axios
-      .get("http://ec2-44-208-165-95.compute-1.amazonaws.com:3001/Products")
-      .then((res) => {
-        const items = res.data;
-        this.setState({ products: items });
-      });
+    axios.get("/Products").then((res) => {
+      const items = res.data;
+      this.setState({ products: items });
+    });
   }
 
   myFilter(type) {
