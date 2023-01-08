@@ -33,7 +33,7 @@ const Nav = (props) => {
               </li>
 
               <li className="navbtn">
-                <a href="/" className="button">
+                <a href="/" className="bttn">
                   Check Out<i className="fa-solid fa-cart-shopping"></i>
                 </a>
               </li>
