@@ -3,14 +3,16 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-class Product extends React.Component {
+export default class Productlist extends React.Component {
   state = {
     products: [],
     type: "All",
   };
 
+  //UseState is a react hook that lets you set some state to react component.
+
   componentDidMount() {
-    axios.get("/Products").then((res) => {
+    axios.get("/Products/LowtoHigh").then((res) => {
       const products = res.data;
       this.setState({ products: res.data });
     });
@@ -59,22 +61,7 @@ class Product extends React.Component {
               </div>
             ))}
         </div>
-
-        <div className="prod">
-          {this.state.products.map((card) => {
-            return (
-              <div className="products" key={card.id}>
-                <img className="img" src={card.image} alt={card.device} />
-                <p className="device">{card.device}</p>
-                <p className="description">{card.description}</p>
-                <p className="price">${card.price}</p>
-              </div>
-            );
-          })}
-        </div>
       </>
     );
   }
 }
-
-export default Product;

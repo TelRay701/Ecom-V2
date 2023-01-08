@@ -44,19 +44,40 @@ app.get("/Products", (req, res) => {
   });
 });
 
-// app.get("/Products/lowToHigh", (req, res) => {
-//   const sql = "SELECT * FROM items ORDER BY price ASC";
-//   api.query(sql, (err, results) => {
-//     handleQueryResult(err, results, res);
-//   });
-// });
+app.get("/Monitor", (req, res) => {
+  const sql = "SELECT * FROM items WHERE category = 'monitor'";
+  api.query(sql, (err, results) => {
+    handleQueryResult(err, results, res);
+  });
+});
 
-// app.get("/Products/HightoLow", (req, res) => {
-//   const sql = "SELECT * FROM items ORDER BY price DESC";
-//   api.query(sql, (err, results) => {
-//     handleQueryResult(err, results, res);
-//   });
-// });
+app.get("/Desktop", (req, res) => {
+  const sql = "SELECT * FROM items WHERE category = 'desktop'";
+  api.query(sql, (err, results) => {
+    handleQueryResult(err, results, res);
+  });
+});
+
+app.get("/Keyboard", (req, res) => {
+  const sql = "SELECT * FROM items WHERE category = 'keyboard'";
+  api.query(sql, (err, results) => {
+    handleQueryResult(err, results, res);
+  });
+});
+
+app.get("/Products/LowtoHigh", (req, res) => {
+  const sql = "SELECT * FROM items ORDER BY price ASC";
+  api.query(sql, (err, results) => {
+    handleQueryResult(err, results, res);
+  });
+});
+
+app.get("/Products/HightoLow", (req, res) => {
+  const sql = "SELECT * FROM items ORDER BY price DESC";
+  api.query(sql, (err, results) => {
+    handleQueryResult(err, results, res);
+  });
+});
 
 app.use(express.static("assets"));
 app.use(express.static(path.join(__dirname, "build")));
