@@ -44,26 +44,26 @@ app.get("/Products", (req, res) => {
   });
 });
 
-app.get("/Monitor", (req, res) => {
-  const sql = "SELECT * FROM items WHERE category = 'monitor'";
-  api.query(sql, (err, results) => {
-    handleQueryResult(err, results, res);
-  });
-});
+// app.get("/Monitor", (req, res) => {
+//   const sql = "SELECT * FROM items WHERE category = 'monitor'";
+//   api.query(sql, (err, results) => {
+//     handleQueryResult(err, results, res);
+//   });
+// });
 
-app.get("/Desktop", (req, res) => {
-  const sql = "SELECT * FROM items WHERE category = 'desktop'";
-  api.query(sql, (err, results) => {
-    handleQueryResult(err, results, res);
-  });
-});
+// app.get("/Desktop", (req, res) => {
+//   const sql = "SELECT * FROM items WHERE category = 'desktop'";
+//   api.query(sql, (err, results) => {
+//     handleQueryResult(err, results, res);
+//   });
+// });
 
-app.get("/Keyboard", (req, res) => {
-  const sql = "SELECT * FROM items WHERE category = 'keyboard'";
-  api.query(sql, (err, results) => {
-    handleQueryResult(err, results, res);
-  });
-});
+// app.get("/Keyboard", (req, res) => {
+//   const sql = "SELECT * FROM items WHERE category = 'keyboard'";
+//   api.query(sql, (err, results) => {
+//     handleQueryResult(err, results, res);
+//   });
+// });
 
 app.get("/Products/LowtoHigh", (req, res) => {
   const sql = "SELECT * FROM items ORDER BY price ASC";
@@ -79,7 +79,7 @@ app.get("/Products/HightoLow", (req, res) => {
   });
 });
 
-app.use(express.static("assets"));
+//Getting exoress to use PATH
 app.use(express.static(path.join(__dirname, "build")));
 app.get("*", (req, res) => {
   try {
@@ -89,6 +89,8 @@ app.get("*", (req, res) => {
     res.status(500).send("Internal server error");
   }
 });
+
+//Listening to the port
 app.listen(3001, () => {
   console.log("Server started on port 3001");
 });

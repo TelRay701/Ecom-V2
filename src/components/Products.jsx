@@ -9,6 +9,10 @@ class Product extends React.Component {
     type: "All",
   };
 
+  //The code is asking for the products from a server.
+  //The code then iterates through the data.
+  // Fetch data from an API and then display it on the screen.
+  // Using axios to make HTTP requests, get data back, and set state for your application.
   componentDidMount() {
     axios.get("/Products").then((res) => {
       const items = res.data;
@@ -16,6 +20,7 @@ class Product extends React.Component {
     });
   }
 
+  //Filter function
   myFilter(type) {
     return () => {
       this.setState({ type });

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import "./Nav.css";
 
+// Navbar
+
 const Nav = (props) => {
   return (
     <>

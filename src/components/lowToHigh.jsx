@@ -9,7 +9,8 @@ export default class Productlist extends React.Component {
     type: "All",
   };
 
-  //UseState is a react hook that lets you set some state to react component.
+  //useState & SetState both Async
+  //They do not update the state immediately but have queues that are used to update the state object.
 
   componentDidMount() {
     axios.get("/Products/LowtoHigh").then((res) => {
